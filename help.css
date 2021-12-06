@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+}
+.topnav{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('earth.jpeg');
+}
+ul{
+    margin: -10px;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 35px 10px 35px 15px !important;
+
+}
+li {
+    float: left;
+    display: inline;
+
+}
+  
+
+.logo{
+    margin: 0;
+    text-transform: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 30px !important;
+    padding-right: 550px;
+    padding-left: 25px;
+    
+
+}
+.drop{
+    padding-top: 15px;
+    padding-left: 10px;
+    border: none;
+    color: #404F24;
+    ;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: rgb(29, 216, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.l{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    color: ivory;
+}
+.pricing{
+    padding-left: 125px;
+    padding-top: 7px;
+    border: none;
+    color: ivory
+}
+.log{
+    
+}
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  li.dropdown {
+  display: inline-block;
+  padding-top: 7px;
+  padding-left: 10px;
+  border: none;
+  color: #83929F;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #404F24;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: rgb(29, 216, 29);}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  .row{
+    background-image: url('lol.webp');
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 300px;
+    background-position: center;
+    background-position: top;
+
+  }
+ .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
+ iframe{
+    box-sizing: content-box;
+    position:relative; 
+    top: -10px; 
+    left: -40px;
+    
+}
